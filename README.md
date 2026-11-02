@@ -20,7 +20,7 @@
 - [阅读路线、补丁谱系、实验与验收](tracks/xiangshan-fence-evolution/W01.md)
 - 上游仓库：https://github.com/OpenXiangShan/XiangShan
 - 关键词：HFENCE.GVMA、SFENCE.VMA、VS-stage / G-stage、PageTableCache、L1TLB、VMID、ASID、PBMT、MPRV
-- 起点：2024 年可验证的 Fence Bug；当前节点：2026 年 10 月公开、尚未合并的上下文修复。**这不是声称 2024 年是虚拟化 MMU 最初引入的时间。**
+- 起点：2024 年 4 月合入 RISC-V H 扩展（上游 PR #2852），再沿 Fence 修复、精准失效与反例演进；当前节点：2026 年 10 月公开、尚未合并的上下文修复。
 
 ## 待选主题池（只做选题，不展开）
 
